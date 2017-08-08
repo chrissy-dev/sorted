@@ -15,5 +15,5 @@ curl -o- https://raw.githubusercontent.com/chrisssycollins/sorted/master/sorted.
 You can specify applications for homebrew to install: 
 
 ```bash
-curl -o- https://raw.githubusercontent.com/chrisssycollins/sorted/master/sorted.sh iterm2 atom tower slack google-chrome firefox sketch spectacle | bash
+curl -o- https://raw.githubusercontent.com/chrisssycollins/sorted/master/sorted.sh | bash -s iterm2 atom tower slack google-chrome firefox sketch spectacle 
 ```
